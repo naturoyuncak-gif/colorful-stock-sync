@@ -1,0 +1,14 @@
+{
+  "name": "colorful-stock-sync",
+  "version": "1.0.0",
+  "description": "Sync StockMount XML to Supabase",
+  "main": "sync.js",
+  "scripts": {
+    "sync": "node sync.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.56.0",
+    "axios": "^1.11.0",
+    "fast-xml-parser": "^5.2.5"
+  }
+}
