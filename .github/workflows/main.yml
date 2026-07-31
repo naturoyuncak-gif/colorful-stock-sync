@@ -18,4 +18,8 @@ jobs:
 
       - run: npm install
 
-      - run: node sync.js
+      - name: Run Sync
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node sync.js
