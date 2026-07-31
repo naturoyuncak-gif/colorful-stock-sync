@@ -105,7 +105,6 @@ function mapProduct(product) {
   description: clean(product.Description)
 };
 
-  };
 }
 async function upsertProducts(products) {
 
