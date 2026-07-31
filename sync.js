@@ -1,3 +1,4 @@
+console.log("SYNC VERSION 3");
 const axios = require("axios");
 const { XMLParser } = require("fast-xml-parser");
 const { createClient } = require("@supabase/supabase-js");
