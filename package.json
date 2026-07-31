@@ -10,5 +10,6 @@
     "@supabase/supabase-js": "^2.39.8",
     "axios": "^1.11.0",
     "fast-xml-parser": "^5.2.5"
+    "ws": "^8.18.0"
   }
 }
